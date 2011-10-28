@@ -4,6 +4,7 @@ author:
   - 'Naosuke Yokoe <yokoe.naosuke@dena.jp>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
+  Scope::Guard: 0
   Test::More: 0.88
   Test::Requires: 0.06
 configure_requires:
@@ -22,9 +23,10 @@ no_index:
     - t
 requires:
   Class::Accessor::Fast: 0
+  Hash::FieldHash: 0
   List::MoreUtils: 0
-  perl: 5.8.1
+  perl: 5.12.0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/zentooo/p5-sub-spy.git
-version: 0.02
+version: 0.04
